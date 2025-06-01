@@ -96,13 +96,13 @@ export const Img = styled.img`
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 400px;
+  max-width: 300px;
   max-height: 400px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
-    max-width: 400px;
+    max-width: 300px;
     max-height: 400px;
   }
 
