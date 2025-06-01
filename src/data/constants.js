@@ -99,54 +99,33 @@ export const Bio = {
       ],
     },
     {
-      title: "Android",
+      title: "Graphic Design",
       skills: [
         {
-          name: "Java",
+          name: "Photoshop",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/640px-Adobe_Photoshop_CC_icon.svg.png",
         },
         {
-          name: "Kotlin",
+          name: "Illustrator",
           image:
-            "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/1200px-Adobe_Illustrator_CC_icon.svg.png",
         },
         {
-          name: "XML",
+          name: "Adobe XD",
           image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/800px-Adobe_XD_CC_icon.svg.png",
         },
         {
-          name: "Android Studio",
+          name: "InDesign",
           image:
-            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-        },
-      ],
-    },
-    {
-      title: "Cross Platform",
-      skills: [
-        {
-          name: "Flutter",
-          image:
-            "https://seeklogo.com/images/F/flutter-logo-5086DD11C5-seeklogo.com.png",
+            "https://img.freepik.com/vecteurs-premium/icone-du-logiciel-adobe-indesign_539007-184.jpg",
         },
         {
-          name: "Dart",
+          name: "Canva",
           image:
-            "https://seeklogo.com/images/D/dart-logo-FDA1939EC4-seeklogo.com.png",
+            "https://521324.fs1.hubspotusercontent-na1.net/hubfs/521324/__hs-marketplace__/Canva_Circle_Gradient%20(1).jpeg",
         },
-        {
-          name: "Bloc",
-          image:
-            "https://plugins.jetbrains.com/files/12129/261752/icon/pluginIcon.png",
-        },
-        {
-          name: "GetX",
-          image:
-            "https://blog.tpk.kr/posts/how-to-get-flutter-boilerplate/getx.webp",
-        },
-        
       ],
     },
     {
@@ -155,19 +134,13 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://avatars.githubusercontent.com/u/18133?s=200&v=4",
         },
         {
           name: "GitHub",
           image:
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         },
-        {
-          name: "Docker",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-        },
-       
         {
           name: "VS Code",
           image:
@@ -176,22 +149,12 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-        },
-        {
-          name: "Adobe XD",
-          image:
-            "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+            "https://yt3.googleusercontent.com/XRzDTgEa9GybH_Uk21E9ri6_iYh-9gbyZzhiEBCnLjISgjTorjMiu7IwpChUMf2lLpEdX6ufDA=s900-c-k-c0x00ffffff-no-rj",
         },
         {
           name: "Figma",
           image:
-            "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-        },
-        {
-          name: "Codemagic",
-          image:
-            "https://codemagic.io/media/landing/press-kit/png/star-gradient.png",
+            "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
         },
       ],
     },
