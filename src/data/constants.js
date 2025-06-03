@@ -1,15 +1,12 @@
-import  nextEvo  from "../images/nextevo.png";
-import solu from "../images/solu.png";
-import mindwell from "../images/mindwell.png";
-import chatify from "../images/chatify.png";
-import wiin from "../images/wiin.png";
-import commerce from "../images/commerce.png";
-import music from "../images/music.png";
-import todo from "../images/todo.png";
-import insta from "../images/insta.png";
-import twitter from "../images/twitter.png";
-import vfx from "../images/vfx.png";
-import spotify from "../images/spotify.png";
+import FilMax from "../images/FilMax.PNG";
+import tav from "../images/tav.PNG";
+import ptsd from "../images/ptsd.PNG";
+import fyter from "../images/fyter.PNG";
+import alemni from "../images/alemni.PNG";
+import posters from "../images/posters.PNG";
+import shop from "../images/shop.png";
+import notes from "../images/notes.PNG";
+
 
 export const Bio = {
     name: "Ghofrane Chergui",
@@ -250,10 +247,10 @@ export const Bio = {
     date: "Mar 2024 - Apr 2024",
     description:
       "A full-stack web application for reserving cinema tickets. Built with the MERN stack, it includes user authentication, seat selection, movie schedules, and payment simulation. The UI was carefully designed with Figma and implemented using Tailwind CSS for a seamless experience.",
-
+    image:FilMax,
     tags: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind", "MERN"],
     category: "Web",
-    github: "", // add if available
+    github: "https://github.com/ghofrane203", // add if available
     webapp: "", // add if available
   },
   {
@@ -262,10 +259,10 @@ export const Bio = {
     date: "Feb 2024 - Mar 2024",
     description:
       "An internal badge management system for airport employees, built with MERN stack. Allows HR to assign and track access badges, verify credentials, and monitor badge history. Designed for secure, real-time access control.",
-
+     image:tav,
     tags: ["MongoDB", "Express.js", "React", "Node.js", "Admin Panel"],
     category: "Web",
-    github: "",
+    github: "https://github.com/ghofrane203",
     webapp: "",
   },
   {
@@ -274,22 +271,23 @@ export const Bio = {
     date: "Jan 2024 - Mar 2024",
     description:
       "An app focused on PTSD management. Includes user registration as psychologist or patient, online consultation scheduling, social interaction between patients, integrated games for relaxation, and a PTSD detection test. Developed with the MERN stack and integrates multimedia support.",
- 
+    image:ptsd,
     tags: ["React", "MongoDB", "Node.js", "Express.js", "PTSD", "Mental Health"],
     category: "Web",
-    github: "",
+    github: "https://github.com/ghofrane203",
     webapp: "",
   },
   {
     id: 3,
     title: "E-Learning Platform",
     date: "Nov 2023 - Dec 2023",
+    image:alemni,
     description:
       "A full-featured online learning platform developed using the MERN stack. Features include course uploads, lesson organization, user dashboards, file sharing, and user role management (teacher/student).",
 
     tags: ["React", "MongoDB", "Node.js", "Express.js", "E-Learning"],
     category: "Web",
-    github: "",
+    github: "https://github.com/ghofrane203",
     webapp: "",
   },
   {
@@ -298,10 +296,10 @@ export const Bio = {
     date: "Oct 2023",
     description:
       "A simple and clean note-taking web application with color tagging, categories, and real-time updates. Built using the MERN stack.",
-
+    image:notes,
     tags: ["React", "Node.js", "Express.js", "MongoDB"],
     category: "Web",
-    github: "",
+    github: "https://github.com/ghofrane203",
     webapp: "",
   },
   {
@@ -310,10 +308,10 @@ export const Bio = {
     date: "Sep 2023",
     description:
       "An e-commerce web application for product listing, cart management, and simulated checkout. Built with the MERN stack and responsive UI design.",
-  
+     image:shop,
     tags: ["React", "Node.js", "MongoDB", "Express.js", "E-Commerce"],
     category: "Web",
-    github: "",
+    github: "https://github.com/ghofrane203",
     webapp: "",
   },
   {
@@ -322,30 +320,26 @@ export const Bio = {
     date: "2021 - Present",
     description:
       "Designed professional posters and digital media assets for clients, university events, and the IoT Club using Photoshop, Illustrator, and Canva. Focus on branding, event identity, and promotional visuals.",
- 
+    image:posters,
     tags: ["Photoshop", "Illustrator", "Canva", "Branding", "Poster Design"],
     category: "Design",
-    github: "",
-    webapp: "",
+    github: "https://www.facebook.com/IOTClubIsimg",
+    webapp: "https://www.facebook.com/IOTClubIsimg",
   },
   {
     id: 7,
-    title: "Freelance Platform - UI/UX and Development",
+    title: "FytrLance",
     date: "Ongoing",
     description:
       "Currently working on a freelance platform from scratch, including UI/UX design in Figma and full development using MERN stack. The platform will include user registration, profile management, project posting, and messaging.",
-    tags: ["Figma", "UI/UX", "React", "MongoDB", "Node.js"],
+     image:fyter,
+      tags: ["Figma", "UI/UX", "React", "MongoDB", "Node.js"],
     category: "Fullstack",
-    github: "",
-    webapp: "",
+    github: "https://github.com/ghofrane203",
+    webapp: "https://fytrlance.com/",
   },
 ];
 
   
   export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
   ];
