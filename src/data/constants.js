@@ -243,159 +243,104 @@ export const Bio = {
    
   ];
   
-  export const projects = [
-    {
-      id: 0,
-      title: "Spotify Clone",
-      date: "Jun 2023 - Jul 2023",
-      description: "The Spotify Clone is a native iOS application meticulously crafted using programmatic UIKit (without Storyboard), Swift, and the Spotify API. It seamlessly retrieves tracks, albums, playlists, and categories from the Spotify platform, offering users a comprehensive music browsing experience. Additionally, the app includes a library feature, enabling users to create, update, and delete playlists effortlessly." ,
-      image:spotify,
-      tags: [
-        "Xcode",
-        "Swift",
-        "IOKit",
-        "API",
-        "MVVM",
-      ],
-      category: "iOS",
-      github: "",
-      webapp: "",
-    },
-    {
-      id: 1,
-      title: "Instagram Clone",
-      date: "Apr 2023 - May 2023",
-      description:
+ export const projects = [
+  {
+    id: 0,
+    title: "Cinéma Ticket Reservation App",
+    date: "Mar 2024 - Apr 2024",
+    description:
+      "A full-stack web application for reserving cinema tickets. Built with the MERN stack, it includes user authentication, seat selection, movie schedules, and payment simulation. The UI was carefully designed with Figma and implemented using Tailwind CSS for a seamless experience.",
 
-      "The Instagram Clone developed with Flutter is a lightweight mobile application designed to replicate the core functionalities of the original Instagram platform. Stripped of messaging features, this clone offers users a simplified experience focused on photo sharing and social interaction. Users can create accounts, upload photos, add captions, like, comment, and share posts, and follow other users. Built with Flutter's efficiency and flexibility, the Instagram Clone ensures smooth performance and a consistent user interface across both iOS and Android platforms. With its streamlined design, this clone provides users with a familiar social media experience tailored for photo sharing and community engagement.",
-      image:insta,
-      tags: ["Flutter", "Firebase", "Provider",],
-      category: "Flutter",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "",
-     
-    },
-    {
-      id: 2,
-      title: "E-Commerce APP",
-      date: "Jul 2022 - Sep 2022",
-      description:
-        "Introducing our E-commerce Mobile App, your one-stop shopping destination! Shop, track orders, and stay updated with notifications effortlessly. Store owners can manage inventory and sales data with ease. Powered by Flutter for a sleek UI and backed by Node.js and MongoDB for robust performance. Shop smarter, shop with us!",
-      image:commerce,
-      tags: [
-        "Flutter",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Provider",
-       
-      ],
-      category: "Flutter",
-      github: "https://github.com/rabieHs/fullstack-e_commerce-app-flutter-nodeJs-MongoDB",
-      webapp: "https://github.com/rabieHs/fullstack-e_commerce-app-flutter-nodeJs-MongoDB",
-    },
-    {
-      id: 3,
-      title: "Todo App",
-      date: "OCT 2023 - OCT 2023",
-      description:
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind", "MERN"],
+    category: "Web",
+    github: "", // add if available
+    webapp: "", // add if available
+  },
+  {
+    id: 1,
+    title: "Airport Badge Management System",
+    date: "Feb 2024 - Mar 2024",
+    description:
+      "An internal badge management system for airport employees, built with MERN stack. Allows HR to assign and track access badges, verify credentials, and monitor badge history. Designed for secure, real-time access control.",
 
-      "The iOS SwiftUI Todo App is a sleek and intuitive application designed to help users organize their tasks efficiently. Built entirely with SwiftUI, this app offers a modern and responsive user interface for seamless task management. Users can easily add, edit, and delete tasks, prioritize them with customizable tags or categories, and mark them as complete as they progress. With SwiftUI's dynamic capabilities, the app provides real-time updates and smooth transitions, ensuring a delightful user experience. Whether managing personal to-dos or professional tasks, the iOS SwiftUI Todo App is the perfect companion for staying organized and productive on the go.",
-      image:todo,
-      tags: ["iOS", "Swift", "SwiftIO", "Firebase"],
-      category: "iOS",
-      github: "https://github.com/rabieHs/ToDoList-iOS",
-      webapp: "https://github.com/rabieHs/ToDoList-iOS",
-    },
-    {
-      id: 4,
-      title: "Music Player APP",
-      date: "Dec 2021 - Apr 2022",
-      description:
+    tags: ["MongoDB", "Express.js", "React", "Node.js", "Admin Panel"],
+    category: "Web",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 2,
+    title: "Post-Traumatic Stress Management App",
+    date: "Jan 2024 - Mar 2024",
+    description:
+      "An app focused on PTSD management. Includes user registration as psychologist or patient, online consultation scheduling, social interaction between patients, integrated games for relaxation, and a PTSD detection test. Developed with the MERN stack and integrates multimedia support.",
+ 
+    tags: ["React", "MongoDB", "Node.js", "Express.js", "PTSD", "Mental Health"],
+    category: "Web",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 3,
+    title: "E-Learning Platform",
+    date: "Nov 2023 - Dec 2023",
+    description:
+      "A full-featured online learning platform developed using the MERN stack. Features include course uploads, lesson organization, user dashboards, file sharing, and user role management (teacher/student).",
 
-      "The Flutter Local Music Player App is a versatile mobile application designed to enable users to enjoy their favorite music stored locally on their devices. Developed using Flutter, this app offers a seamless and intuitive user experience across both iOS and Android platforms. Users can easily browse and play their music library, create playlists, shuffle and repeat tracks, and adjust playback settings such as volume and equalizer settings. With Flutter's cross-platform capabilities, the Local Music Player App provides consistent performance and a sleek user interface. Whether at home or on the go, users can immerse themselves in their personal music collection with ease and convenience.",
-       image:music,
-      tags: ["Flutter", "Shared Preferences", "Audio Player",],
-      category: "Flutter",
-      github: "https://github.com/rabieHs/Music_Player_App",
-      webapp: "https://github.com/rabieHs/Music_Player_App",
-    },
-    {
-      id: 5,
-      title: "VFX club APP",
-      date: "Jun 2023 - Jul 2023",
-      description:
-        "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-      image:vfx,
-      tags: ["Andoid", "Java", "Firebase"],
-      category: "Android",
-      github: "https://github.com/rishavchanda/Job-finder-App",
-      webapp: "https://github.com/rishavchanda/Job-finder-App",
-    },
-    {
-      id: 6,
-      title: "Twitter Clone",
-      date: "Jul 2021",
-      description:
+    tags: ["React", "MongoDB", "Node.js", "Express.js", "E-Learning"],
+    category: "Web",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 4,
+    title: "Note App",
+    date: "Oct 2023",
+    description:
+      "A simple and clean note-taking web application with color tagging, categories, and real-time updates. Built using the MERN stack.",
 
-      "The Twitter Clone is an iOS application meticulously developed using programmatic UIKit and Swift. This clone faithfully replicates the core features of Twitter, providing users with a seamless and intuitive experience. Leveraging UIKit, the app enables users to compose tweets, view timelines, follow other users, like and retweet posts, and engage in direct messaging. With a clean and modern interface, users can navigate effortlessly through their feeds and interact with content just like on the original Twitter platform.",
-            image:twitter,
-      tags: ["iOS", "SwiftUI", "Firebase"],
-      category: "iOS",
-      github: "https://github.com/rabieHs/Twitter-Clone-IOS-NO-STORYBOARD-UIKIT",
-      webapp: "https://github.com/rabieHs/Twitter-Clone-IOS-NO-STORYBOARD-UIKIT",
-    },
+    tags: ["React", "Node.js", "Express.js", "MongoDB"],
+    category: "Web",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 5,
+    title: "Online Shopping Platform",
+    date: "Sep 2023",
+    description:
+      "An e-commerce web application for product listing, cart management, and simulated checkout. Built with the MERN stack and responsive UI design.",
   
-    {
-      id: 7,
-      title: "Solu Dashboard",
-      date: "Jun 2021",
-      description:
+    tags: ["React", "Node.js", "MongoDB", "Express.js", "E-Commerce"],
+    category: "Web",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 6,
+    title: "Graphic Design Projects",
+    date: "2021 - Present",
+    description:
+      "Designed professional posters and digital media assets for clients, university events, and the IoT Club using Photoshop, Illustrator, and Canva. Focus on branding, event identity, and promotional visuals.",
+ 
+    tags: ["Photoshop", "Illustrator", "Canva", "Branding", "Poster Design"],
+    category: "Design",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 7,
+    title: "Freelance Platform - UI/UX and Development",
+    date: "Ongoing",
+    description:
+      "Currently working on a freelance platform from scratch, including UI/UX design in Figma and full development using MERN stack. The platform will include user registration, profile management, project posting, and messaging.",
+    tags: ["Figma", "UI/UX", "React", "MongoDB", "Node.js"],
+    category: "Fullstack",
+    github: "",
+    webapp: "",
+  },
+];
 
-      "Solu Dashboard is a comprehensive business management application designed to empower entrepreneurs in efficiently managing their enterprises. This intuitive app provides a range of functionalities tailored to meet the diverse needs of businesses. Entrepreneurs can seamlessly monitor their daily, weekly, and monthly income trends, track worker performance, generate and manage invoices, and oversee stock and product inventory. Notably, Solu Dashboard supports multi-branch management, enabling entrepreneurs to oversee multiple locations or branches of their business from a single platform. With its user-friendly interface and robust features, Solu Dashboard streamlines business operations, facilitating informed decision-making and enhancing overall productivity.",
-            image:solu,
-      tags: ["Flutter", "Firebase", "GraphQL", "Riverpod"],
-      category: "Flutter",
-      github: "",
-      webapp: "",
-    },
-    {
-      id: 8,
-      title: "Wiin",
-      date: "Jun 2022",
-      description:
-        "Wiin App is the ultimate service provider and searcher platform, revolutionizing how users connect for their various needs. This innovative app, built with cutting-edge technology, combines the power of Flutter for a seamless and intuitive user experience with Node.js and MongoDB for reliability and scalability.",
-      image:wiin,
-      tags: ["Flutter", " MongoDB", "Express", "Node JS"],
-      category: "Flutter",
-      github: "https://github.com/rabieHs/wiin-service-Provider-App-flutter",
-      webapp: "https://github.com/rabieHs/wiin-service-Provider-App-flutter",
-    },
-    {
-      id: 9,
-      title: "Mindwell",
-      date: "Dec 2022 - Mar 2023",
-      description:
-        "MindWell is your AI-powered mental health companion, redefining self-care in the digital age. With real-time facial emotion recognition, text analysis, and secure authentication, it helps you understand and manage your emotional well-being effortlessly. MindWell offers tailored solutions, from mood tracking to personalized recommendations for tasks, music, and meditation, all wrapped in a user-friendly interface for seamless navigation. Prioritize your mental health with MindWell today.",
-      image:mindwell,
-      tags: ["Flutter", "Dart", "Firebase", "TensorFlow", "Python", "Flask"],
-      category: "Flutter",
-      github: "https://github.com/rabieHs/PFE-Mental-health-App",
-      webapp: "https://github.com/rabieHs/PFE-Mental-health-App",
-    },
-    {
-      id: 10,
-      title: "Chatify",
-      date: "May 2022",
-      description:
-        "Flutter chat app with Firebase integration for real-time messaging, user authentication, chat room creation, and push notifications.",
-      image:chatify,
-      tags: ["Flutter", "Firebase", "Provider", "Dart"],
-      category: "Flutter",
-      github: "https://github.com/rabieHs/flutter_chat_app",
-      webapp: "https://github.com/rabieHs/flutter_chat_app",
-    },
-  ];
   
   export const TimeLineData = [
     { year: 2017, text: "Started my journey" },
