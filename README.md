@@ -2,7 +2,7 @@
 
 Welcome to my **Portfolio App** a modern React-based web application designed to showcase my projects, skills, and experiences in a clean and interactive way.
 
-## 🚀 Getting Started
+## Getting Started
 
 In the project directory, you can run the following commands:
 
