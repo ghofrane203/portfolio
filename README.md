@@ -1,6 +1,6 @@
 # Portfolio App 
 
-Welcome to my**Portfolio App** a modern React-based web application designed to showcase my projects, skills, and experiences in a clean and interactive way.
+Welcome to m**Portfolio App** a modern React-based web application designed to showcase my projects, skills, and experiences in a clean and interactive way.
 
 ## Getting Started
 
